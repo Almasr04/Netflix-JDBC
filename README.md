@@ -3,6 +3,7 @@ This is our EndTerm project for the Java object orientated programming course. H
 Database consists of 3 Tables and we have 6 javaclasses in IDE.
 First of all we created tables for registration bank account information and movie.
 Registration consists of first name ,last name ,password , email and one primary key username which is connnected to the bank table.
+
  //CREATE TABLE Registration(User_ID INTEGER,client_name varchar(200),surname VARCHAR(200),username VARCHAR(200) PRIMARY KEY,user_password INTEGER,email varchar);
             //String queryCreate = "CREATE TABLE Bank(username varchar(200),bank_account int,number_card int,CVV int, FOREIGN KEY (username) references Registration(username))";
             //String queryCreate = "CREATE TABLE movies(movie_name varchar(200),genres varchar(200),rating int(10),director varchar(100))";
